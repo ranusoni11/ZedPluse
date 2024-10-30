@@ -1,0 +1,214 @@
+body {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 15%, rgba(69, 69, 69, 0.8379726890756303) 51%, rgba(0, 10, 98, 1) 100%);
+    background-size: cover;
+    height: 100vh;
+}
+
+.ch{
+   margin-top: 120px;
+}
+
+.cardHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 450px;
+    border:none solid white;
+    border-radius: 15px;
+    background-color: #ffffffe6;
+}
+
+.cardcss{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 220px;
+    padding: 16px;
+    border: 2px solid gray;
+}
+
+.cardimg{
+    width: 100px;
+    height: 100px;
+}
+
+.cardbtn{
+    color: rgb(23, 23, 46);
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 650px;
+}
+
+.h-class{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: rgb(35, 35, 35);
+}
+
+.reg{
+    margin-bottom: -10px;
+}
+.regtxt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.regtxt p{
+    margin-right: 10px;
+    color: rgb(15, 15, 52);
+}
+
+.cimg{
+    /* border: 1px solid white; */
+    filter: drop-shadow(10px 10px 5px 15px white);
+    /* opacity: 0.6; */
+}
+
+
+/* .round {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.round:nth-child(1) {
+    left: 10%;
+    opacity: 1;
+}
+
+.round:nth-child(2) {
+    left: 65%;
+}
+
+.round:nth-child(3) {
+    left: 88%;
+}
+
+.round:nth-child(4) {
+    left: 18%;
+}
+
+.round:nth-child(5) {
+    left: 90%;
+    top: 5%;
+    opacity: 1;
+}
+
+.round:nth-child(6) {
+    left: 52%;
+    top: 5%;
+    opacity: 1;
+}
+
+.round:nth-child(7) {
+    left: 65%;
+    top: 5%;
+    opacity: 1;
+}
+
+.round:nth-child(8) {
+    left: 35%;
+    top: 5%;
+    opacity: 1;
+}
+
+.round:nth-child(9) {
+    left: 85%;
+    top: 5%;
+    opacity: 1;
+}
+
+.round:nth-child(10) {
+    left: 45%;
+    top: 5%;
+    opacity: 1;
+}
+
+.round:nth-child(11) {
+    left: 36%;
+    top: 5%;
+    opacity: 1;
+}
+
+.round:nth-child(12) {
+    left: 72%;
+    top: 5%;
+    opacity: 1;
+}
+
+.round:nth-child(13) {
+    left: 14%;
+    top: 5%;
+    opacity: 1;
+}
+
+.round:nth-child(14) {
+    left: 70%;
+    top: 5%;
+    opacity: 1;
+} */
+
+/* @keyframes animate {
+    0% {
+        top: 0;
+        opacity: 1;
+    }
+
+    20% {
+        top: 20%;
+        opacity: 0.8;
+    }
+
+    40% {
+        top: 40%;
+        opacity: 0.6;
+    }
+
+    60% {
+        top: 60%;
+        opacity: 0.4;
+    }
+
+    80% {
+        top: 80%;
+        opacity: 0.2;
+    }
+
+    100% {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes ani-2 {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+} */
+
+/* App.css */

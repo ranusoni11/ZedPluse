@@ -1,0 +1,103 @@
+/* .regbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    
+} */
+
+.formbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    /* padding: 32px 16px; */
+    max-width: 350px;
+    margin: 0 auto;
+    height: 550px;
+    margin-top: 70px;
+    border-radius: 25px;
+    /* box-shadow: 0 10px 10px rgba(255, 255, 255, 0.19); */
+    filter: drop-shadow(0 10px 10px rgba(255, 255, 255, 0.19));
+}
+
+.usercss{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.emailcss{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.pncss{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.passcss{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.rebtn{
+    width: 250px;
+}
+
+.lablecss{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* .userfeild{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.iconscss i{
+    background-color: #9FA6B2;
+    padding: 8px;
+}
+
+button i{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+input{
+    width: 200px;
+    padding: 2px;
+}
+
+.regImage{
+    position: absolute;
+    top: 14%;
+    left: 46%;
+
+}
+
+.fleximg{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.re-h-class{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(35, 35, 35);
+    margin-top: 25px;
+}

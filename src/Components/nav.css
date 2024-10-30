@@ -1,0 +1,51 @@
+.navbody {
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgb(34, 34, 34) 15%, rgba(69,69,69,0.8379726890756303) 51%, rgba(0,10,98,1) 100%);
+}
+
+.logo{
+    height: 60px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* border: 3px solid white; */
+    cursor: pointer;
+}
+
+/* .logotext{
+    border-bottom: 2px dotted white;
+} */
+.colorcss{
+    color: red;
+    letter-spacing: 6px;
+    margin-left: 0px;
+    border-top: 2px double white;
+
+}
+
+.colorcss1{
+    color: white;
+    letter-spacing: 6px;
+    margin-left: 0px;
+    border-bottom: 2px double red;
+}
+
+.navclr{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.navclr:hover{
+    color: red;
+}
+
+.logosection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    /* --nav-link-hover-color: var(--#{white}link-hover-color); */
+}

@@ -1,0 +1,103 @@
+.org-formbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    /* padding: 32px 16px; */
+    max-width: 350px;
+    margin: 0 auto;
+    height: 450px;
+    margin-top: 100px;
+    border-radius: 25px;
+    /* box-shadow: 0 10px 10px rgba(255, 255, 255, 0.19); */
+    filter: drop-shadow(0 10px 10px rgba(255, 255, 255, 0.19));
+}
+
+.org-usercss{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.org-emailcss{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.org-pncss{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.org-passcss{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.org-rebtn{
+    width: 250px;
+}
+
+.org-lablecss{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* .userfeild{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.org-iconscss i{
+    background-color: #9FA6B2;
+    padding: 8px;
+}
+
+button i{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+input{
+    width: 200px;
+    padding: 2px;
+}
+
+.org-regImage{
+    position: absolute;
+    top: 19%;
+    left: 46%;
+
+}
+
+.org-fleximg{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.h-class{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: rgb(35, 35, 35);
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.org-fogpass{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
