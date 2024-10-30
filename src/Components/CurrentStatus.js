@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './currentstatus.css';
+import vimage from '../images/anprimg.jpg'
+import carimage from '../images/car.png'
 
 const CurrentStatus = () => {
   const [vehicleLogs, setVehicleLogs] = useState([]);
@@ -23,12 +25,12 @@ const CurrentStatus = () => {
           <div className="card card-style" key={index}>
             <div className="card-content">
               <div className="col-md-4">
-                <img src={element.vehicleImg} className="card-img" alt="Vehicle" />
+                <img src={vimage} className="card-img" alt="Vehicle" />
               </div>
               <div className="sub-content">
                 <div className="text-content">
-                  <h5 className="card-title">{element.vehicleNumber}</h5>
-                  <p className="card-text">{element.vehicleType}</p>
+                  <h3 className="card-title">{element.vehicleNumber}</h3>
+                  <p className="card-text"><img src={carimage} className='carimg' style={{"height": "36px", "width": "36px", "color": "white"}}/>{element.vehicleType}</p>
                   <p className="card-text">{element.vehicleModle}</p>
                   <p className="card-text"><small className="text-body-secondary">{element.entryTime}</small></p>
                 </div>
